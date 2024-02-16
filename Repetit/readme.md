@@ -20,7 +20,7 @@
    - Добавлены синтезированные признаки.
    - Удалены колонки, вызывающие утечку.
 
-4. **Использование Bertopic:**
+4. **Использование Bertopic для кластеризации текста:**
    - Обучение Bertopic на gpu для столбца purpose заняло 90 минут, используя модель paraphrase-multilingual-mpnet-base-v2.
    - Обученная модель занимает 11 ГБ и доступна по ссылке: [Model Link](https://drive.google.com/file/d/1F9KDQaVoN6pUch5X1zOtzRfUH8caCkyB/view?usp=drive_link).
    - Добавлены признаки, полученные с помощью Bertopic из столбца purpose.
