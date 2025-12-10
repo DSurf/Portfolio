@@ -143,15 +143,6 @@ model = CatBoostClassifier(
 pip install pandas numpy catboost bertopic sentence-transformers umap-learn hdbscan matplotlib
 ```
 
-### Структура проекта
-
-```
-repetit-fraud-detection/
-├── data/                      # .feather файлы (не включены)
-├── repetit_analysis.ipynb     # Основной notebook
-└── README.md
-```
-
 ### Использование
 
 ```python
